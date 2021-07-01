@@ -43,6 +43,9 @@ const useStyles = makeStyles((theme) => ({
     alignItems: 'center',
     justifyContent: 'center',
     borderBottom: '1px solid black'
+  },
+  carrousel: {
+    marginTop: '10px',
   }
 
 }));
@@ -63,7 +66,7 @@ export default function Home() {
       <CssBaseline />
       <Container maxWidth="lg">
         <Header sections={sections} />
-        <Carrousel />
+        <Carrousel className={classes.carrousel} />
         <img src={brands} alt="brands" className={classes.img} />
       </Container>
       <Container maxWidth="lg" id="electric">
