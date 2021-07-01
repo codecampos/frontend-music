@@ -45,7 +45,7 @@ const useStyles = makeStyles((theme) => ({
     borderBottom: '1px solid black'
   },
   carrousel: {
-    marginTop: '10px',
+    marginBottom: '20px',
   }
 
 }));
@@ -64,8 +64,8 @@ export default function Home() {
   return (
     <div className={classes.root}>
       <CssBaseline />
-      <Container maxWidth="lg" className={classes.carrousel}>
-        <Header sections={sections} />
+      <Container maxWidth="lg">
+        <Header sections={sections}  className={classes.carrousel}/>
         <Carrousel />
         <img src={brands} alt="brands" className={classes.img} />
       </Container>
