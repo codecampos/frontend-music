@@ -8,7 +8,6 @@ import slideEletronics from '../../assets/slideEletronics.jpg'
 
 const contentStyle = {
   height: '79vh',
-  marginTop: '15px'
 };
 
 const slideOne = {
