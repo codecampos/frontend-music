@@ -64,9 +64,9 @@ export default function Home() {
   return (
     <div className={classes.root}>
       <CssBaseline />
-      <Container maxWidth="lg">
+      <Container maxWidth="lg" className={classes.carrousel}>
         <Header sections={sections} />
-        <Carrousel className={classes.carrousel} />
+        <Carrousel />
         <img src={brands} alt="brands" className={classes.img} />
       </Container>
       <Container maxWidth="lg" id="electric">
