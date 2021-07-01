@@ -69,7 +69,7 @@ export default function Carrousel() {
           <h3 style={slideTwo}>Baixos Signatures do artistas mais conhecidos!</h3>
         </div>
         <div>
-          <h3 style={slideThree}>Violões feitos com madeiras nobres, trazendo um som limpo e brilhante!</h3>
+          <h3 style={slideThree}>Violões feitos com madeiras nobres, trazendo um som limpo!</h3>
         </div>
         <div>
           <h3 style={slideFour}>Equipamentos eletronicos de qualidade!</h3>
